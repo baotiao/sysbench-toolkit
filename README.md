@@ -3,20 +3,31 @@
 
 
 **Introduction**
+
 This repository contains a collection of performance benchmarks for different industries. The goal is to provide a more accurate and realistic assessment of database performance in real-world applications.
+
+
 
 **Background**
 
 Traditionally, sysbench is used to benchmark database performance. However, sysbench is designed to simulate a generic workload, which may not be representative of the specific needs of a particular industry. For example, the TPCC benchmark, which is one of the most popular benchmarks for simulating business workloads, is designed to model an online order processing system. This workload is not representative of the needs of industries such as gaming, e-education, or SaaS.
 
+
+
 In the gaming industry, for example, databases are often used to store large amounts of data, such as character equipment information. In this case, the performance of the database may be limited by the ability to update large blob fields. In the e-education industry, databases are often used to support hot updates, such as when students are registering for classes. In this case, the performance of the database may be limited by the ability to handle hot spots. In the SaaS industry, databases are often used to support multiple tables and indexes for each customer. In this case, the performance of the database may be limited by the ability to support complex queries.
+
+
 
 **Benchmarks**
 The benchmarks in this repository are designed to cover a wide range of industry-specific workloads. The benchmarks include the following:
 
 Gaming: This benchmark simulates the workload of a gaming database, which includes operations such as storing character equipment information, updating character statistics, and performing item transactions.
+
 E-education: This benchmark simulates the workload of an e-education database, which includes operations such as registering students for classes, tracking student progress, and issuing grades.
+
 SaaS: This benchmark simulates the workload of a SaaS database, which includes operations such as creating and managing customer accounts, storing customer data, and processing customer transactions.
+
+
 
 **Future work**
 
